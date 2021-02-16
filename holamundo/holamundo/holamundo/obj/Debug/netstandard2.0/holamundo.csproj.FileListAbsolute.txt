@@ -1,0 +1,13 @@
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\bin\Debug\netstandard2.0\holamundo.deps.json
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\bin\Debug\netstandard2.0\holamundo.dll
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\bin\Debug\netstandard2.0\ref\holamundo.dll
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\bin\Debug\netstandard2.0\holamundo.pdb
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\obj\Debug\netstandard2.0\holamundo.AssemblyInfoInputs.cache
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\obj\Debug\netstandard2.0\holamundo.AssemblyInfo.cs
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\obj\Debug\netstandard2.0\XamlC.stamp
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\obj\Debug\netstandard2.0\holamundo.dll
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\obj\Debug\netstandard2.0\ref\holamundo.dll
+D:\FERNAND\Mobile\holamundo\holamundo\holamundo\obj\Debug\netstandard2.0\holamundo.pdb
