@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:ViewModels="clr-namespace:app2.ViewModel"
+             mc:Ignorable="d"
+             x:Class="app2.MainPage">
+
+    <StackLayout Margin="0,30,0,0">
+        <Image Source="" WidthRequest="200" HeightRequest="200"></Image>
+        <!-- Place new controls here -->
+        <Button Text="Mostrar" HorizontalOptions="FillAndExpand" x:Name="btnmostrar" Clicked="btnmostrar_Clicked">            
+        </Button>
+        <Button Text="Crear" HorizontalOptions="FillAndExpand" x:Name="btnnuevo" Clicked="btnnuevo_Clicked">
+        </Button>
+        <StackLayout Orientation="Horizontal" BackgroundColor="Aqua">
+            <Label Text="Buscar por codigo"></Label>
+            <Entry x:Name="cajacodigo" HorizontalOptions="FillAndExpand"></Entry>
+            <Button Text="Borrar" x:Name="btneliminar" Clicked="btneliminar_Clicked"></Button>
+            <Button Text="Editar" x:Name="btneditar" Clicked="btneditar_Clicked"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ViewModels="clr-namespace:app2.ViewModel"
+             mc:Ignorable="d"
+             x:Class="app2.Views.RazasView">
+    <ContentPage.BindingContext>
+        <ViewModels:RazaModel></ViewModels:RazaModel>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout Margin="0,30,0,0">
+            <Label Text="Lista de razas de perros" FontSize="25"
+                  TextColor="Green"
+                  HorizontalOptions="CenterAndExpand"/>
+            <ListView ItemsSource="{Binding Razas}" RowHeight="90">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="{Binding nombre}"/>
+                                <Label Text="{Binding Cod}"/>
+                                <Label Text="{Binding caracteristicas}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Text="RETORNAR" Clicked="Button_Clicked" BackgroundColor="DarkRed" TextColor="Yellow">
+                
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
