@@ -1,0 +1,13 @@
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\bin\Debug\netstandard2.0\CollectionViewDemo.deps.json
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\bin\Debug\netstandard2.0\CollectionViewDemo.dll
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\bin\Debug\netstandard2.0\ref\CollectionViewDemo.dll
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\bin\Debug\netstandard2.0\CollectionViewDemo.pdb
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\obj\Debug\netstandard2.0\CollectionViewDemo.csprojAssemblyReference.cache
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\obj\Debug\netstandard2.0\CollectionViewDemo.AssemblyInfoInputs.cache
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\obj\Debug\netstandard2.0\CollectionViewDemo.AssemblyInfo.cs
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\obj\Debug\netstandard2.0\XamlC.stamp
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\obj\Debug\netstandard2.0\CollectionViewDemo.dll
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\obj\Debug\netstandard2.0\ref\CollectionViewDemo.dll
+D:\FERNAND\Mobile\CollectionViewDemo\CollectionViewDemo\CollectionViewDemo\obj\Debug\netstandard2.0\CollectionViewDemo.pdb

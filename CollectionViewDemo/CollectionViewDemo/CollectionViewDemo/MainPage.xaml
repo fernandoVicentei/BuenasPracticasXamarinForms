@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CollectionViewDemo.MainPage"
+             BackgroundColor="Maroon">
+   <!--en el collection indicamos el  origen de datos con el binding dde donde la variable publica sera la que nos retornada-->
+    <CollectionView x:Name="collection" ItemsSource="{Binding products}" Margin="10">
+        <!-- <CollectionView.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String> DOG DOG
+                </x:String>
+                <x:String> JHON CORONEL
+                </x:String>
+                <x:String> ALBERTO PEREZ
+                </x:String>
+                <x:String> CARMEN PEREZ
+                </x:String>
+                <x:String> ANGEL P
+                </x:String>
+                <x:String>  ANA MARIA
+                </x:String>
+            </x:Array>
+        </CollectionView.ItemsSource> -->
+        
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame Padding="5" CornerRadius="5" IsClippedToBounds="False">
+                    <Grid HeightRequest="100">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".3*"></ColumnDefinition>
+                            <ColumnDefinition Width=".7*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height=".5*"></RowDefinition>
+                            <RowDefinition Height=".5*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Image Grid.RowSpan="2" Source="{Binding Image}"></Image>
+                        <Label  Grid.Column="1" FontAttributes="Bold" FontSize="Large" Text="{Binding name}"
+                                VerticalOptions="Center"></Label>
+                        <Label Grid.Row="1" Grid.Column="1" FontSize="Medium" Text="{Binding Price, StringFormat='{0:C}'}">                            
+                        </Label>
+                        
+                    </Grid>                  
+                </Frame>
+                
+                
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+        
+    </CollectionView>
+
+    
+
+</ContentPage>
