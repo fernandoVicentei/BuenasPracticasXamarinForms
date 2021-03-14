@@ -1,0 +1,14 @@
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\bin\Debug\netstandard2.0\AppMaqueta.deps.json
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\bin\Debug\netstandard2.0\AppMaqueta.dll
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\bin\Debug\netstandard2.0\ref\AppMaqueta.dll
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\bin\Debug\netstandard2.0\AppMaqueta.pdb
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\AppMaqueta.csprojAssemblyReference.cache
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\AppMaqueta.AssemblyInfoInputs.cache
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\AppMaqueta.AssemblyInfo.cs
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\AppMaqueta.dll
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\ref\AppMaqueta.dll
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\AppMaqueta.pdb
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\XamlC.stamp
+D:\FERNAND\Mobile\AppMaqueta\AppMaqueta\AppMaqueta\obj\Debug\netstandard2.0\View\UsoCombobox.xaml.g.cs

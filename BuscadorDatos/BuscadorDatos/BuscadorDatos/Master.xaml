@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BuscadorDatos.Master"
+             Title="Master">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Button Text="Acerca de " x:Name="btncerca" BackgroundColor="White" Image="miauasies.JPG"
+                    Clicked="btncerca_Clicked"></Button>
+            <Button Text="Ventas" x:Name="btnventas" BackgroundColor="White" Image="miauasies.JPG"
+                    Clicked="btnventas_Clicked"></Button>
+            <Button Text="ConectionInternet" x:Name="btnconection" BackgroundColor="White" Image="miauasies.JPG"
+                    Clicked="btnconection_Clicked"></Button>
+            <Button Text="EnlacedeDatos" x:Name="btndata" BackgroundColor="White" Image="miauasies.JPG"
+                    Clicked="btndata_Clicked"></Button>
+            <Button Text="Mapa" x:Name="btnmapa" BackgroundColor="White" Image="miauasies.JPG"
+                    Clicked="btnmapa_Clicked"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
