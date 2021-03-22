@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MovilAppFt.Vistas.Menu">
+    <StackLayout  Padding="10,20,20,10" >
+
+        <Button    Padding="25,5,25,5" FontSize="Subtitle" 
+                 TextColor="Yellow" BackgroundColor="DarkRed"                 
+                 Margin="5,1,2,1"
+                 Text="PRODUCCION"
+                 Clicked="Button_Clicked"
+                 ></Button>
+
+        <Button    Padding="25,5,25,5" FontSize="Subtitle" 
+                 TextColor="Yellow" BackgroundColor="DarkRed"
+                 Text="PARADAS DE MAQUINA"
+                 Margin="5,1,2,1" Clicked="Button_Clicked_1"></Button>
+
+        <Button    Padding="25,5,25,5" FontSize="Subtitle" 
+                 TextColor="Yellow" BackgroundColor="DarkRed"
+                 Text="HISTORIAL"
+                 Margin="5,1,2,1" Clicked="Button_Clicked_2"></Button>
+
+
+    </StackLayout>
+</ContentPage>

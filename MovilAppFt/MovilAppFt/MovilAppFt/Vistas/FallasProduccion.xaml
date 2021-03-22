@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MovilAppFt.Vistas.FallasProduccion">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15,5,5,5">
+                <Label Text="SELECCIONA EL EQUIPO"  VerticalOptions="Fill"                     
+                     FontSize="Subtitle"></Label>
+                <Picker x:Name="equipos" SelectedIndexChanged="equipos_SelectedIndexChanged"   Margin="2,3,5,2" ></Picker>
+                <Label Text="SECTOR"  VerticalOptions="Fill"                     
+                     FontSize="Subtitle"></Label>
+                <Picker x:Name="sector" SelectedIndexChanged="sector_SelectedIndexChanged" Margin="2,3,5,2" ></Picker>
+
+                <Label Text="REFERENCIA 0"  VerticalOptions="Fill"                     
+                     FontSize="Subtitle"></Label>
+                <Picker x:Name="referencia0" SelectedIndexChanged="referencia0_SelectedIndexChanged" Margin="2,3,5,2" ></Picker>
+
+                <Label Text="REFERENCIA 1"  VerticalOptions="Fill"                     
+                     FontSize="Subtitle"></Label>
+                <Picker x:Name="referencia1" SelectedIndexChanged="referencia1_SelectedIndexChanged" Margin="2,3,5,2" ></Picker>
+
+                <Entry Text="" Placeholder="Explicacion" HeightRequest="50" VerticalOptions="Fill"
+                       Margin="2,3,5,2"></Entry>
+
+                <Label Text="TIEMPO"  VerticalOptions="Fill"                     
+                     FontSize="Subtitle"></Label>
+                <TimePicker x:Name="_timePicker"
+                    Time="00:00:00"
+                    Format="T"
+                    PropertyChanged="_timePicker_PropertyChanged" />
+
+
+                <Button VerticalOptions="EndAndExpand" Text="REGISTRAR" FontSize="Title" Padding="10,5,10,5" 
+                    BackgroundColor="Black" TextColor="Cyan" Clicked="Button_Clicked"></Button>
+
+
+            </StackLayout>
+        </ScrollView>
+       
+    </ContentPage.Content>
+    
+</ContentPage>

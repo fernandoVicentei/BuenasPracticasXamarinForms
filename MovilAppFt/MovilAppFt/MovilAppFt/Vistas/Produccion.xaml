@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MovilAppFt.Vistas.Produccion">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15,5,5,5" >
+                <Label Text="SELECCIONA LA PLANTA"  VerticalOptions="Fill"                     
+                     FontSize="Subtitle"></Label>
+                <Picker x:Name="plantas" SelectedIndexChanged="plantas_SelectedIndexChanged" Margin="2,3,5,2" ></Picker>
+                <Label Text="CENTRO DE TRABAJO"  VerticalOptions="Fill"  
+                     FontSize="Subtitle"></Label>
+                <Picker x:Name="centrotrab" SelectedIndexChanged="centrotrab_SelectedIndexChanged" Margin="2,3,5,2" ></Picker>
+                <Label Text="TONELADAS PROCESADAS"  VerticalOptions="Fill"  
+                    FontSize="Subtitle"></Label>
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                    <Entry Text="" Placeholder="Ingresar toneladas" Margin="2,3,5,2"  Keyboard="Numeric" ></Entry>
+                    <Label Text="Toneladas" FontSize="Title"  Padding="5,5"></Label>
+                </StackLayout>
+                
+                <Button VerticalOptions="EndAndExpand" Text="AGREGAR PRODUCCION" FontSize="Title" Padding="10,5,10,5" 
+                    BackgroundColor="Black" TextColor="Cyan" Clicked="Button_Clicked"></Button>
+            </StackLayout>
+        </ScrollView>      
+    </ContentPage.Content>
+</ContentPage>
